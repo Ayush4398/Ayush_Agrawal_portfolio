@@ -1,28 +1,25 @@
-import React from "react";
 
-function experience(){
-    return(
-        <section>
-          <h1 className="copyright">Experience</h1>
-        <div className="container">
-          <div className="row">
+function experience() {
+  return (
+    <>
+      <h1>Experience</h1><br /><br />
+        <h3 className="text-start">-Client: Shree Shyam Impex</h3><br /><br />
+        <div className="row">
+          <div className="col-lg-6 d-flex align-items-center">
+            <h6 className="paratext">Designed and developed an e-commerce website for Shree Shyam Impex, a company specializing in the production and supply of goods and services. This website was created using HTML, CSS, jQuery, and JavaScript. It is hosted on AWS for robust and reliable hosting services.
+            </h6>
+          </div>
           <div className="col-lg-6">
-               <h4 className="workpoints">Client :- Shree Shyam Impex</h4>
-               <ul>
-                 <li className="workpoints">Constructed an e-commerce website for Shree Shyam Impex that supply and manufacture the goods and services.</li>
-                 <li className="workpoints">Designed and developed using HTML, CSS, jquery and JavaScript.</li>
-                 <li className="workpoints">For hosting service used AWS and learnt about S3 and Route53 service of AWS.</li>
-               </ul>
-            </div>
-            <div className="col-lg-6">
-              <a className="text-decoration-none" href="http://www.shreeshyamimpex.co.in/">
-                <img className="projectimage" src="doc/ssi.png" alt=""/>
-              </a>
-            </div>
+          <br /><br />
+            <a className="text-decoration-none" href="http://www.shreeshyamimpex.co.in/">
+              <img className="img-fluid" src="doc/ssi.png" alt="" />
+              <h6>http://www.shreeshyamimpex.co.in/</h6>
+            </a>
           </div>
         </div>
-      </section>
-    );
+      
+    </>
+  );
 }
 
 export default experience;
