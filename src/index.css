@@ -1,46 +1,49 @@
-.margin{
-    border-radius: 8%;
+footer {
+  bottom: 0;
+  text-align: center;
+  width: 100%;
 }
-footer{
-    bottom: 0;
-    text-align: center;
-    width: 100%;
+
+img {
+  border-radius: 10%;
 }
-.copyright{
-    font-weight: bold;
-    padding: 10px;
-    color: darkcyan;
+
+h2 {
+  color: #419197;
 }
-.content{
-    text-align: center;
-    background-color: cornsilk;
-    padding: 60px;
+
+h1 {
+  color: #12486B;
 }
-.projectimage {
-    width: 80%;
-    height: 80%;
-    border-radius: 20%;
-    margin: 40px;
+
+h3 {
+  color: #22668D;
 }
-.introline {
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 200;
-    padding: 50px;
+
+.margin {
+  border-radius: 3%;
 }
-.gifsize {
-    width: 50%;
-    display: inline-block;
-    margin: 20px 0;
+
+.content {
+  text-align: center;
+  background-color: #CAEDFF;
+  padding: 10%;
 }
-.workpoints{
-    margin: 20px;
-    text-align: left;
-    font-weight: 800;
+
+.paratext {
+  font-style: italic;
+  font-size: large;
+}
+
+.padtext {
+  padding: 80px 0 0 0;
+}
+.padimag {
+  padding: 30px;
 }
 .contacticon {
-    height: 20px;
-    width: 20px;
-    display: inline;
-    margin: 30px 20px ;
-  }
+  height: 20px;
+  width: 20px;
+  display: inline;
+  margin: 20px 20px;
+}
